@@ -5,3 +5,9 @@ I am making available my bibtex file with over 800 references in black hole astr
 
 I hope this is useful to somebody.
 
+&nbsp;
+
+---
+
+[Visit the author's web page](http://rodrigonemmen.com/) and/or follow him on twitter ([@astrorho](https://twitter.com/astrorho)).
+
