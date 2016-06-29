@@ -19,8 +19,12 @@ refs.bib
 
 # How to use the database
 
+Make sure the files are in the same directory as your latex document. Then simply include the following line before `\begin{document}` in your latex document:
 
-Simply include the following line at the end of your latex document:
+    % Journal abbreviations \apj, \mnras etc (bibtex)
+    \include{journals}	
+
+and include the following line at the end of the document just before `\end{document}`:
 
     \bibliography{refs}
     
