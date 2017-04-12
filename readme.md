@@ -26,8 +26,8 @@ Make sure the files are in the same directory as your latex document. Then simpl
 
 and include the following line at the end of the document just before `\end{document}`:
 
-    \bibliography{refs}
-    
+    \bibliography{refs}    
+
 # Contributing to the database
 
 Everybody is welcome to add references to the database and keep it growing. :smile:
@@ -47,14 +47,14 @@ A magnetohydrodynamical model for the formation of episodic jets. MNRAS, 2009, 3
 
 becomes
 
-* bibtexkey = `Yuan09`
+* bibtexkey = `Yuan2009`
 * journal = \apj
 
 > F Yusef-Zadeh, R. Arendt, H. Bushouse, W. Cotton, D. Haggard, M. W. Pound, D. A. Roberts, M. Royster, and M. Wardle. A 3 pc SCALE JET-DRIVEN OUTFLOW FROM SGR A*. The Astrophysical Journal Letters, 2012, Volume 758, Number 1
 
 becomes
 
-* bibtexkey = `Yusef-Zadeh12`
+* bibtexkey = `Yusef-Zadeh2012`
 * journal = \apjl
 
 
