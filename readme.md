@@ -73,6 +73,10 @@ Some useful apps you can use to manage the database:
 
 Every search engine for references includes ways of copying the bibtex info for a paper.
 
+<img src=“ADS_Bumblebee.png” width=“400px" />  <!-- images for github --> 
+
+<img src=“ADS_classic.png” width=“400px" />  <!-- images for github --> 
+
 Alternatively, for convenience, it is suggested to use the [adspaste](https://github.com/rsnemmen/adspaste) command-line tool. Some examples:
 
 ```
