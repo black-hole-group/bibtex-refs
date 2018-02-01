@@ -69,6 +69,10 @@ Some useful apps you can use to manage the database:
 - [bibdesk](http://bibdesk.sourceforge.net) (macOS only)
 - [papers](http://www.papersapp.com) (macOS only)
 
+Here is a screenshot of jabref and its convenient interface for managing references.
+
+![Jabref screenshot](./jabref.png)
+
 #### 3. Easily grabbing bibtex info from a paper in NASA ADS, arXiv or DOI
 
 Every search engine for references includes ways of copying the bibtex info for a paper.
