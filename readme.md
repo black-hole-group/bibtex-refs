@@ -57,7 +57,7 @@ becomes
 * bibtexkey = `Yusef-Zadeh2012`
 * journal = \apjl
 
-
+Common choices for the journal tag are: `\apj, \apjl, \mnras, \aap, \apjs, \araa`. Full list available in the `journals.tex` file.
 
 #### 2. Recommended apps for managing the database
 
