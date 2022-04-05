@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Rodrigo Nemmen da Silva at 2021-10-20 23:05:43 -0300 
+%% Created for Rodrigo Nemmen da Silva at 2022-02-23 18:10:18 -0600 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -10,6 +10,25 @@
 @comment{jabref-meta: databaseType:bibtex;}
 
 
+
+@article{Cranmer2021,
+	abstract = {Despite over 300 y of effort, no solutions exist for predicting when a general planetary configuration will become unstable. We introduce a deep learning architecture to push forward this problem for compact systems. While current machine learning algorithms in this area rely on scientist-derived instability metrics, our new technique learns its own metrics from scratch, enabled by a internal structure inspired from dynamics theory. Our model can quickly and accurately predict instability timescales in compact multiplanet systems, and does so with an accurate uncertainty estimate for unfamiliar systems. This opens up the development of fast terrestrial planet formation models, and enables the efficient exploration of stable regions in parameter space for multiplanet systems.We introduce a Bayesian neural network model that can accurately predict not only if, but also when a compact planetary system with three or more planets will go unstable. Our model, trained directly from short N-body time series of raw orbital elements, is more than two orders of magnitude more accurate at predicting instability times than analytical estimators, while also reducing the bias of existing machine learning algorithms by nearly a factor of three. Despite being trained on compact resonant and near-resonant three-planet configurations, the model demonstrates robust generalization to both nonresonant and higher multiplicity configurations, in the latter case outperforming models fit to that specific set of integrations. The model computes instability estimates up to 105 times faster than a numerical integrator, and unlike previous efforts provides confidence intervals on its predictions. Our inference model is publicly available in the SPOCK (https://github.com/dtamayo/spock) package, with training code open sourced (https://github.com/MilesCranmer/bnn_chaos_model).Simulation/numerical integration output data have been deposited in GitHub (https://github.com/MilesCranmer/bnn_chaos_model). Our inference model is publicly available in the SPOCK (https://github.com/dtamayo/spock) package. Data are currently publicly available on Zenodo (https://zenodo.org/record/5501473) (72). This work made use of several Python software packages: numpy (73), scipy (74), sklearn (75), jupyter (76), matplotlib (77), pandas (78), torch (71), pytorch-lightning (79), and tensorflow (80).},
+	author = {Cranmer, Miles and Tamayo, Daniel and Rein, Hanno and Battaglia, Peter and Hadden, Samuel and Armitage, Philip J. and Ho, Shirley and Spergel, David N.},
+	date-added = {2022-02-23 18:10:13 -0600},
+	date-modified = {2022-02-23 18:10:14 -0600},
+	doi = {10.1073/pnas.2026053118},
+	elocation-id = {e2026053118},
+	eprint = {https://www.pnas.org/content/118/40/e2026053118.full.pdf},
+	issn = {0027-8424},
+	journal = {Proceedings of the National Academy of Sciences},
+	number = {40},
+	publisher = {National Academy of Sciences},
+	title = {A Bayesian neural network predicts the dissolution of compact planetary systems},
+	url = {https://www.pnas.org/content/118/40/e2026053118},
+	volume = {118},
+	year = {2021},
+	bdsk-url-1 = {https://www.pnas.org/content/118/40/e2026053118},
+	bdsk-url-2 = {https://doi.org/10.1073/pnas.2026053118}}
 
 @article{Schmidt2009,
 	author = {Michael Schmidt and Hod Lipson},
