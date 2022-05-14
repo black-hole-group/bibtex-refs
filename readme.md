@@ -1,21 +1,13 @@
 Black hole group BibTeX database
 ======================
 
-This is the BibTeX database for the [Black Hole Group](https://rodrigonemmen.com/group/) @ IAG USP, with over 1000 references in black hole and high energy astrophysics as well as an auxiliary TeX file with abbreviations of common astrophysics journals. 
-
-It is *strongly recommended* to adopt BibTeX in your academic documents, papers and proposals (trust me, this will save you a lot of time in the long run).
-
+This is the BibTeX database for the [Black Hole Group](https://rodrigonemmen.com/group/) @ IAG USP, with over 1000 references in black hole and high energy astrophysics, and AI in astronomy as well as an auxiliary TeX file with abbreviations of common astrophysics journals. 
 
 # Files
 
-```
-refs.bib    
-│
-└───journals.tex
-```
-
-* *journals.tex* - abbreviations of journals for bibliography
-* *refs.bib* - bibtex file
+* `journals.tex` - abbreviations of journals for bibliography
+* `refs.bib` - bibtex file with black hole references
+* `AI.bib` - bibtex file with AI in astronomy references
 
 # How to use the database
 
