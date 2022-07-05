@@ -64,15 +64,15 @@ Some useful apps you can use to manage the database:
 
 Here is a screenshot of jabref and its convenient interface for managing references.
 
-![Jabref screenshot](./jabref.png)
+![Jabref screenshot](./figures/jabref.png)
 
 #### 3. Easily grabbing bibtex info from a paper in NASA ADS, arXiv or DOI
 
 Every search engine for references includes ways of copying the bibtex info for a paper.
 
-![](ADS_Bumblebee.png) 
+![](./figures/ADS_Bumblebee.png) 
 
-![](ADS_classic.png)  
+![](./figures/ADS_classic.png)  
 
 Alternatively, for convenience, it is suggested to use the [adspaste](https://github.com/rsnemmen/adspaste) command-line tool. Some examples:
 
@@ -92,5 +92,5 @@ In each case, the full bibtex info will be copied to the clipboard and ready to 
 
 New to Git? [Check this out](https://github.com/rsnemmen/Git-for-busy-people).
 
-[Black Hole Group](https://rodrigonemmen.com/group/) @ IAG USP
+[Black Hole Group](https://blackholegroup.org/).
 
