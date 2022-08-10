@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Rodrigo Nemmen da Silva at 2022-02-23 18:10:18 -0600 
+%% Created for Rodrigo Nemmen da Silva at 2022-07-07 17:08:34 -0300 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -10,6 +10,55 @@
 @comment{jabref-meta: databaseType:bibtex;}
 
 
+
+@inproceedings{Stachenfeld2022,
+	author = {Kim Stachenfeld and Drummond Buschman Fielding and Dmitrii Kochkov and Miles Cranmer and Tobias Pfaff and Jonathan Godwin and Can Cui and Shirley Ho and Peter Battaglia and Alvaro Sanchez-Gonzalez},
+	booktitle = {International Conference on Learning Representations},
+	date-added = {2022-07-07 17:08:32 -0300},
+	date-modified = {2022-07-07 17:08:33 -0300},
+	title = {Learned Simulators for Turbulence},
+	url = {https://openreview.net/forum?id=msRBojTz-Nh},
+	year = {2022},
+	bdsk-url-1 = {https://openreview.net/forum?id=msRBojTz-Nh}}
+
+@misc{Li2020,
+	author = {Li, Zongyi and Kovachki, Nikola and Azizzadenesheli, Kamyar and Liu, Burigede and Bhattacharya, Kaushik and Stuart, Andrew and Anandkumar, Anima},
+	copyright = {arXiv.org perpetual, non-exclusive license},
+	date-added = {2022-07-07 17:07:41 -0300},
+	date-modified = {2022-07-07 17:07:42 -0300},
+	doi = {10.48550/ARXIV.2010.08895},
+	keywords = {Machine Learning (cs.LG), Numerical Analysis (math.NA), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Mathematics, FOS: Mathematics},
+	publisher = {arXiv},
+	title = {Fourier Neural Operator for Parametric Partial Differential Equations},
+	url = {https://arxiv.org/abs/2010.08895},
+	year = {2020},
+	bdsk-url-1 = {https://arxiv.org/abs/2010.08895},
+	bdsk-url-2 = {https://doi.org/10.48550/ARXIV.2010.08895}}
+
+@inproceedings{Zhu2021,
+	author = {Zhu, Chengke and Ye, Hongxia and Zhan, Bin},
+	booktitle = {2021 Photonics & Electromagnetics Research Symposium (PIERS)},
+	date-added = {2022-07-07 17:07:25 -0300},
+	date-modified = {2022-07-07 17:07:27 -0300},
+	doi = {10.1109/PIERS53385.2021.9695119},
+	pages = {1635-1643},
+	title = {Fast Solver of 2D Maxwell's Equations Based on Fourier Neural Operator},
+	year = {2021},
+	bdsk-url-1 = {https://doi.org/10.1109/PIERS53385.2021.9695119}}
+
+@misc{Pathak2022,
+	author = {Pathak, Jaideep and Subramanian, Shashank and Harrington, Peter and Raja, Sanjeev and Chattopadhyay, Ashesh and Mardani, Morteza and Kurth, Thorsten and Hall, David and Li, Zongyi and Azizzadenesheli, Kamyar and Hassanzadeh, Pedram and Kashinath, Karthik and Anandkumar, Animashree},
+	copyright = {arXiv.org perpetual, non-exclusive license},
+	date-added = {2022-07-07 17:06:35 -0300},
+	date-modified = {2022-07-07 17:06:36 -0300},
+	doi = {10.48550/ARXIV.2202.11214},
+	keywords = {Atmospheric and Oceanic Physics (physics.ao-ph), Machine Learning (cs.LG), FOS: Physical sciences, FOS: Physical sciences, FOS: Computer and information sciences, FOS: Computer and information sciences},
+	publisher = {arXiv},
+	title = {FourCastNet: A Global Data-driven High-resolution Weather Model using Adaptive Fourier Neural Operators},
+	url = {https://arxiv.org/abs/2202.11214},
+	year = {2022},
+	bdsk-url-1 = {https://arxiv.org/abs/2202.11214},
+	bdsk-url-2 = {https://doi.org/10.48550/ARXIV.2202.11214}}
 
 @article{Cranmer2021,
 	abstract = {Despite over 300 y of effort, no solutions exist for predicting when a general planetary configuration will become unstable. We introduce a deep learning architecture to push forward this problem for compact systems. While current machine learning algorithms in this area rely on scientist-derived instability metrics, our new technique learns its own metrics from scratch, enabled by a internal structure inspired from dynamics theory. Our model can quickly and accurately predict instability timescales in compact multiplanet systems, and does so with an accurate uncertainty estimate for unfamiliar systems. This opens up the development of fast terrestrial planet formation models, and enables the efficient exploration of stable regions in parameter space for multiplanet systems.We introduce a Bayesian neural network model that can accurately predict not only if, but also when a compact planetary system with three or more planets will go unstable. Our model, trained directly from short N-body time series of raw orbital elements, is more than two orders of magnitude more accurate at predicting instability times than analytical estimators, while also reducing the bias of existing machine learning algorithms by nearly a factor of three. Despite being trained on compact resonant and near-resonant three-planet configurations, the model demonstrates robust generalization to both nonresonant and higher multiplicity configurations, in the latter case outperforming models fit to that specific set of integrations. The model computes instability estimates up to 105 times faster than a numerical integrator, and unlike previous efforts provides confidence intervals on its predictions. Our inference model is publicly available in the SPOCK (https://github.com/dtamayo/spock) package, with training code open sourced (https://github.com/MilesCranmer/bnn_chaos_model).Simulation/numerical integration output data have been deposited in GitHub (https://github.com/MilesCranmer/bnn_chaos_model). Our inference model is publicly available in the SPOCK (https://github.com/dtamayo/spock) package. Data are currently publicly available on Zenodo (https://zenodo.org/record/5501473) (72). This work made use of several Python software packages: numpy (73), scipy (74), sklearn (75), jupyter (76), matplotlib (77), pandas (78), torch (71), pytorch-lightning (79), and tensorflow (80).},
