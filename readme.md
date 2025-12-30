@@ -1,7 +1,7 @@
 Black hole group BibTeX database
 ==================================
 
-This is the BibTeX database for the [Black Hole Group](https://rodrigonemmen.com/group/) @ IAG USP, with over 1000 references in black hole and high energy astrophysics, and AI in astronomy as well as an auxiliary TeX file with abbreviations of common astrophysics journals. 
+This is the BibTeX database for the [Black Hole Group](https://blackholegroup.org), with over 1000 references in black hole and high energy astrophysics, and AI in astronomy as well as an auxiliary TeX file with abbreviations of common astrophysics journals. 
 
 # Files
 
@@ -23,7 +23,7 @@ and include the following line at the end of the document just before `\end{docu
 
 # Contributing to the database
 
-Everybody is welcome to add references to the database and keep it growing. :smile:
+Everybody is welcome to add references to the database and keep it growing.
 
 Just add papers to the database in the usual bibtex way, commit your file and push to this repo. 
 
@@ -62,9 +62,6 @@ Some useful apps you can use to manage the database:
 - [bibdesk](http://bibdesk.sourceforge.net) (macOS only)
 - [papers](http://www.papersapp.com) (macOS only)
 
-Here is a screenshot of jabref and its convenient interface for managing references.
-
-![Jabref screenshot](./figures/jabref.png)
 
 #### 3. Easily grabbing bibtex info from a paper in NASA ADS, arXiv or DOI
 
